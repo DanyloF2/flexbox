@@ -1,0 +1,79 @@
+/* Скидання стилів */
+body, h1, p, div, img, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Основні стилі */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #005bb5;
+}
+
+.text-line {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.text-item img {
+  margin-bottom: 10px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.what-we-do ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 20px;
+}
+
+.what-we-do li {
+  flex: 1 1 25%;
+  margin: 10px;
+}
+
+.what-we-do img {
+  width: 100%;
+  height: auto;
+}
+
+.section-hero {
+  text-align: center;
+  padding: 20px;
+}
